@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="Asavela Plaatjie" />
+  <link rel="shortcut icon" href="images/favicon.png" type="">
+
+  <title> ESTRATWENI </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- nice select  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+   <link rel="stylesheet" href="css/another.css">
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <style>
+    .menu {
+      flex-wrap: wrap;
+    }
+    .tablink {
+      border: 1px solid;
+      padding: 5px 10px;
+      border-radius: 45px;
+      background-color: gray;
+    }
+    .tablink:hover {
+      background-color: rgb(100, 86, 5);
+    }
+
+  </style>
+</head>
+<body class="sub_page">
+  <div class="hero_area">
+  <header class="header_section">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg custom_nav-container ">
+        <a class="navbar-brand" href="index.html" >
+          <img src="images/STRATWENI-LOGO.jpg"  id="logo" >
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class=""> </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  mx-auto ">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="anothermenu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  </div>
+    <section class="food_section ">
+        <div class="container">
+            <div class="heading_container heading_center acca" >
+                <h2>OUR MENU</h2>
+            </div>
+            <ul class="filters_menu">
+
+                <li ><a href="javascript:void(0)" onclick="openMenu(event, 'Burger');" >
+              <div class="tablink">Burgers</div>
+                </a></li>
+                <li><a href="javascript:void(0)" onclick="openMenu(event, 'Platter');">
+              <div class="tablink" style="background-color: blueviolet;">Platters</div>
+                </a></li>
+                <li><a href="javascript:void(0)" onclick="openMenu(event, 'Combo');">
+              <div class="tablink">Combos</div>
+                </a></li>
+                <li><a href="javascript:void(0)" onclick="openMenu(event, 'Ice-cream');">
+                <div class="tablink">Ice-creams</div>
+                </a></li>
+                <li><a href="javascript:void(0)" onclick="openMenu(event, 'Other');">
+                <div class="tablink">Others</div>
+                </a></li>
+            </ul>
+            <div id="Burger" class="menu"  style="display: none;">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="box">
+                      <div>
+                        <div class="img-box">
+                          <img src="images/Rib-burger.jpg" alt="">
+                        </div>
+                        <div class="detail-box">
+                          <h5>
+                            Rib Burger
+                          </h5>
+                          <p>
+                            
+                          </p>
+                          <div class="options">
+                            <h6>
+                              R50
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+               </div>
+               <div class="col-sm-6 col-lg-4">
+                <div class="box">
+                  <div>
+                    <div class="img-box">
+                      <img src="images/beef.jpg" alt="">
+                    </div>
+                    <div class="detail-box">
+                      <h5>
+                        Beef Burger
+                      </h5>
+                      <p>
+                        Juicy beef patty, melted cheddar cheese , lettucte, tomato, onion and sauce on toasted bun
+                      </p>
+                      <div class="options">
+                        <h6>
+                          R50
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                <div class="box">
+                  <div>
+                    <div class="img-box">
+                      <img src="images/Double-beef.jpg" alt="">
+                    </div>
+                    <div class="detail-box">
+                      <h5>
+                        Double Beef burger
+                      </h5>
+                      <p>
+                        
+                      </p>
+                      <div class="options">
+                        <h6>
+                          R95
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                <div class="box">
+                  <div>
+                    <div class="img-box">
+                      <img src="images/chicken-burger.jpg" alt="">
+                    </div>
+                    <div class="detail-box">
+                      <h5>
+                        Chicken Burger
+                      </h5>
+                      <p>
+                        
+                      </p>
+                      <div class="options">
+                        <h6>
+                          R50
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="Platter" class="menu nuu" style="display: flex;">
+                    <div class="col-sm-6 col-lg-4">
+                    <div class="box">
+                      <div>
+                        <div class="img-box">
+                          <img src="images/inyam'eningi.jpg" alt="">
+                        </div>
+                        <div class="detail-box">
+                          <h5>
+                            Inyam'Eningi
+                          </h5>
+                          <p>
+                            4x quater chicken, red meat , sauage, 8x wings , 8x nuggets and fries
+                          </p>
+                          <div class="options">
+                            <h6>
+                              R350
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                    <div class="box">
+                      <div>
+                        <div class="img-box">
+                          <img src="images/2by2.jpg" alt="">
+                        </div>
+                        <div class="detail-box">
+                          <h5>
+                            2 BY 2
+                          </h5>
+                          <p>
+                            2x burger , 2x quater chicken and fries
+                          </p>
+                          <div class="options">
+                            <h6>
+                              R180
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                    <div class="box">
+                      <div>
+                        <div class="img-box">
+                          <img src="images/burger special.jpg" alt="">
+                        </div>
+                        <div class="detail-box">
+                          <h5>
+                            Burger Special
+                          </h5>
+                          <p>
+                            3x burgers, 5x wings, and fries
+                          </p>
+                          <div class="options">
+                            <h6>
+                              R220
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="box">
+                        <div>
+                          <div class="img-box">
+                            <img src="images/chomieyamm.jpg" alt="">
+                          </div>
+                          <div class="detail-box">
+                            <h5>
+                              Chomie Yam
+                            </h5>
+                            <p>
+                              2x Burgers, 6x Wings, and fries
+                            </p>
+                            <div class="options">
+                              <h6>
+                                R160
+                              </h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="box">
+                        <div>
+                          <div class="img-box">
+                            <img src="images/istixo.jpg" alt="">
+                          </div>
+                          <div class="detail-box">
+                            <h5>
+                              Istixo Platter
+                            </h5>
+                            <p>
+                              2x quater chicken, sausage, 6 nuggets and fries
+                            </p>
+                            <div class="options">
+                              <h6>
+                                R160
+                              </h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="box">
+                        <div>
+                          <div class="img-box">
+                            <img src="images/platter42.jpg" alt="">
+                          </div>
+                          <div class="detail-box">
+                            <h5>
+                              Platter For 2
+                            </h5>
+                            <p>
+                              6x Wings, 6x Nuggets, Salad and fries
+                            </p>
+                            <div class="options">
+                              <h6>
+                                R150
+                              </h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="box">
+                        <div>
+                          <div class="img-box">
+                            <img src="images/ungayithi-vu.jpg" alt="">
+                          </div>
+                          <div class="detail-box">
+                            <h5>
+                              Ungayithi Vuuuuuu
+                            </h5>
+                            <p>
+                              9x riblets, 12x Wings, sausage and fries
+                            </p>
+                            <div class="options">
+                              <h6>
+                                R350
+                              </h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+            </div>
+            <div id="Combo" class="menu nuu" style="display: none;">
+                <div class="col-sm-6 col-lg-4 all">
+                    <div class="box">
+                      <div>
+                        <div class="img-box">
+                          <img src="images/onemanjive.jpg" alt="">
+                        </div>
+                        <div class="detail-box">
+                          <h5>
+                            One Man Jive
+                          </h5>
+                          <p>
+                            Ribs, 2x wings, sausage, salad and fries
+                          </p>
+                          <div class="options">
+                            <h6>
+                              R150
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 all">
+                    <div class="box">
+                      <div>
+                        <div class="img-box">
+                          <img src="images/burger,sausage,fries.jpg" alt="">
+                        </div>
+                        <div class="detail-box">
+                          <h5>
+                            Burger sausage Combo
+                          </h5>
+                          <p>
+                            1x burger , sausage and fries
+                          </p>
+                          <div class="options">
+                            <h6>
+                              R70
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 all">
+                    <div class="box">
+                      <div>
+                        <div class="img-box">
+                          <img src="images/burger,quater,fries.jpg" alt="">
+                        </div>
+                        <div class="detail-box">
+                          <h5>
+                            Burger Chicken Combo
+                          </h5>
+                          <p>
+                            1x burger, quater chicken and fries
+                          </p>
+                          <div class="options">
+                            <h6>
+                              R50
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 all">
+                  <div class="box">
+                    <div>
+                      <div class="img-box">
+                        <img src="images/b" alt="">
+                      </div>
+                      <div class="detail-box">
+                        <h5>
+                          Big combo
+                        </h5>
+                        <p>
+                          4x Burgers, 6x Wings, Sausage, Salad and Fries
+                        </p>
+                        <div class="options">
+                          <h6>
+                            R50
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 all">
+                <div class="box">
+                  <div>
+                    <div class="img-box">
+                      <img src="images/burger,wrap,friesR90.jpg" alt="">
+                    </div>
+                    <div class="detail-box">
+                      <h5>
+                        Burger Wrap combo
+                      </h5>
+                      <p>
+                        1x burger, 1x wrap and fries
+                      </p>
+                      <div class="options">
+                        <h6>
+                          R50
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 all">
+                <div class="box">
+                  <div>
+                    <div class="img-box">
+                      <img src="images/roll,fries,wings.jpg" alt="">
+                    </div>
+                    <div class="detail-box">
+                      <h5>
+                        Sausage roll Wings Combo
+                      </h5>
+                      <p>
+                        1x sausage roll, 2x Wings and fries
+                      </p>
+                      <div class="options">
+                        <h6>
+                          R50
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 all">
+                    <div class="box">
+                      <div>
+                        <div class="img-box">
+                          <img src="images/wings,ribs.jpg" alt="">
+                        </div>
+                        <div class="detail-box">
+                          <h5>
+                            rib wings Combo
+                          </h5>
+                          <p>
+                            ribs, wings, salad and fries
+                          </p>
+                          <div class="options">
+                            <h6>
+                              150
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Ice-cream" class="menu nuu" style="display: none;">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="box">
+                      <div>
+                        <div class="img-box">
+                          <img src="images/MgowoTheraphyR65.jpg" alt="">
+                        </div>
+                        <div class="detail-box">
+                          <h5>
+                            Mgowo Theraphy
+                          </h5>
+                          <p>
+                            6 ice-cream scoops, chocolate sauce, white chocolate sauce, chocolate stick, choc finger, 2x biscuit, chocolate balls, ferero top, 1x suckers
+                          </p>
+                          <div class="options">
+                            <h6>
+                              R65
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="box">
+                      <div>
+                        <div class="img-box">
+                          <img src="images/KunkraR45.jpg" alt="">
+                        </div>
+                        <div class="detail-box">
+                          <h5>
+                            Kunkra
+                          </h5>
+                          <p>
+                            6 scoops, chocolate sauce, white chocolate sauce, 1 biscuit, chocolate finger
+                          </p>
+                          <div class="options">
+                            <h6>
+                              R45
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="box">
+                      <div>
+                        <div class="img-box">
+                          <img src="images/chichi.jpg" alt="">
+                        </div>
+                        <div class="detail-box">
+                          <h5>
+                            Chichi
+                          </h5>
+                          <p>
+                            6 scoops, chocolate sauce, white chocolate sauce, chocolate stick, choc finger, 2x biscuits, ferero top, strawberry
+                          </p>
+                          <div class="options">
+                            <h6>
+                              R55
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="box">
+                      <div>
+                        <div class="img-box">
+                          <img src="images/KilimanjaroR75.jpg" alt="">
+                        </div>
+                        <div class="detail-box">
+                          <h5>
+                            Kilimanjaro
+                          </h5>
+                          <p>
+                            6 scoops, chocolate sauce, white chocolate sauce, chocolate stick, choc finger, 2x biscuits, chocolate balls, ferero top, 2x suckers, kitkat
+                          </p>
+                          <div class="options">
+                            <h6>
+                              R75
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Other" class="menu nuu" style="display: none;">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="box">
+                      <div>
+                        <div class="img-box">
+                          <img src="images/Summer-sbwl.jpg" alt="">
+                        </div>
+                        <div class="detail-box">
+                          <h5>
+                            Summer SBWL 
+                          </h5>
+                          <p>
+                            Juicy beef patty, melted cheddar cheese , lettucte, tomato, onion and sauce on toasted bun
+                          </p>
+                          <div class="options">
+                            <h6>
+                              R50
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 all">
+                    <div class="box">
+                      <div>
+                        <div class="img-box">
+                          <img src="images/wings,wrap,nuggets,sala,friesR200.jpg" alt="">
+                        </div>
+                        <div class="detail-box">
+                          <h5>
+                            Something Sexy
+                          </h5>
+                          <p>
+                            6x Wings, 6x Nuggets, 2x wraps, salad and fries
+                          </p>
+                          <div class="options">
+                            <h6>
+                              R200
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 all">
+                    <div class="box">
+                      <div>
+                        <div class="img-box">
+                          <img src="images/wrapfries.jpg" alt="">
+                        </div>
+                        <div class="detail-box">
+                          <h5>
+                            Wrap
+                          </h5>
+                          <p>
+                            Tender grilled meat, crisp lettuce, tomatoes, creamy mayo and cucumber wrapped in a soft tortilla + fries
+                          </p>
+                          <div class="options">
+                            <h6>
+                              R50
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 all">
+                    <div class="box">
+                      <div>
+                        <div class="img-box">
+                          <img src="images/roll and chips.jpg" alt="">
+                        </div>
+                        <div class="detail-box">
+                          <h5>
+                            Sausage roll
+                          </h5>
+                          <p>
+                            
+                          </p>
+                          <div class="options">
+                            <h6>
+                              R50
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 all">
+                    <div class="box">
+                      <div>
+                        <div class="img-box">
+                          <img src="images/ALL Meats.jpg" alt="">
+                        </div>
+                        <div class="detail-box">
+                          <h5>
+                            All meats
+                          </h5>
+                          <p>
+                            2x wings, sausage, red meat, salad and fries
+                          </p>
+                          <div class="options">
+                            <h6>
+                              R130
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer class="footer_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 footer-col">
+            <div class="footer_contact">
+              <h4>
+                Contact Us
+              </h4>
+              <div class="contact_link_box">
+                <a href="">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span>
+                    Location
+                  </span>
+                </a>
+                <a href="">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span>
+                    Call +27 62366 3215
+                  </span>
+                </a>
+                <a href="">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <span>
+                    estratwenimobilefoods@gmail.com
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 footer-col">
+            <div class="footer_detail">
+              <div class="footer_social">
+                <a href="https://www.facebook.com/Mobilefoodscc">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/estratwenimobilefoods">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                
+                <a href="https://www.instagram.com/estratwenimobilefoods?igsh=MWk1eno3NmszeTZ3aw==">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 footer-col">
+            <h4>
+              Opening Hours
+            </h4>
+            <p>
+              Mon - Thursday
+            </p>
+            <p>
+              10.00 Am -7.00 Pm
+            </p>
+            <p>
+              Friday - Saturday
+            </p>
+            <p>
+              9.00 Am - 8.00 Pm
+            </p>
+          </div>
+        </div>
+        <div class="footer-info">
+          <p>
+            &copy; <span id="displayYear"></span> All Rights Reserved By
+            <a>Asavela Plaatjie</a><br><br>
+          </p>
+        </div>
+      </div>
+    </footer>
+        
+        
+        
+    <script>
+
+
+        
+        function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(menuName).style.display = "flex";
+  evt.currentTarget.firstElementChild.className += " active";
+}
+        
+        
+
+    </script>
+    
+    <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- isotope js -->
+  <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
+  <!-- nice select -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+
+
+</body>
